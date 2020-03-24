@@ -71,6 +71,7 @@
         padding: 15px 30px;
 
         cursor: pointer;
+        transition: .2s;
 
         &:hover {
             background-color: $carrot-dark;
@@ -89,6 +90,7 @@
         @include reset;
         color: $content-color;
         font-weight: bold;
+        transition: .2s;
         
         &:hover {
             text-decoration: underline;
@@ -97,6 +99,12 @@
 
         &:active {
             color: $carrot-active;
+        }
+    }
+
+    @media (min-width: $tablet-width) {
+        &__wrap {
+            @include tablet-wrap;
         }
     }
 

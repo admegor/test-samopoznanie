@@ -13,6 +13,12 @@
         @include title-font;
     }
 
+    @media (min-width: $tablet-width) {
+        &__wrap {
+            @include tablet-wrap;
+        }
+    }
+
     @media (min-width: $desktop-width) {
         &__wrap {
             @include desktop-wrap;

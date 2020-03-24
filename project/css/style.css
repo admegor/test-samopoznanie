@@ -378,6 +378,10 @@ img {
 .logo__image-link:hover {
   box-shadow: 0 1px 25px rgba(0, 0, 0, 0.05), 0 1px 13px rgba(0, 0, 0, 0.1); }
 
+@media (min-width: 720px) {
+  .logo__wrap {
+    max-width: 720px; } }
+
 @media (min-width: 1170px) {
   .logo__wrap {
     max-width: 1170px; }
@@ -448,7 +452,8 @@ img {
     color: #ffffff;
     background-color: #ff6a25;
     padding: 15px 30px;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .2s; }
     .domains__button:hover {
       background-color: #ce541b; }
     .domains__button:active {
@@ -461,12 +466,16 @@ img {
     text-decoration: none;
     list-style: none;
     color: #333333;
-    font-weight: bold; }
+    font-weight: bold;
+    transition: .2s; }
     .domains__text a:hover {
       text-decoration: underline;
       color: #ff6a25; }
     .domains__text a:active {
       color: #9b431a; }
+  @media (min-width: 720px) {
+    .domains__wrap {
+      max-width: 720px; } }
   @media (min-width: 1170px) {
     .domains__wrap {
       max-width: 1170px; }
@@ -497,6 +506,9 @@ img {
     text-decoration: none;
     list-style: none;
     font-family: 'Futura PT Medium','Arial', sans-serif; }
+  @media (min-width: 720px) {
+    .footer__wrap {
+      max-width: 720px; } }
   @media (min-width: 1170px) {
     .footer__wrap {
       max-width: 1170px; }
