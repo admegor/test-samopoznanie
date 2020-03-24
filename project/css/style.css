@@ -455,8 +455,18 @@ img {
       background-color: #9b431a; }
   .domains__text {
     font-family: 'Futura PT Medium','Arial', sans-serif; }
-  .domains__text span {
+  .domains__text a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
     font-weight: bold; }
+    .domains__text a:hover {
+      text-decoration: underline;
+      color: #ff6a25; }
+    .domains__text a:active {
+      color: #9b431a; }
   @media (min-width: 1170px) {
     .domains__wrap {
       max-width: 1170px; }

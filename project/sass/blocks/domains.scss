@@ -85,8 +85,19 @@
         @include title-font; 
     }
 
-    &__text span {
+    &__text a {
+        @include reset;
+        color: $content-color;
         font-weight: bold;
+        
+        &:hover {
+            text-decoration: underline;
+            color: $carrot;
+        }
+
+        &:active {
+            color: $carrot-active;
+        }
     }
 
     @media (min-width: $desktop-width) {
