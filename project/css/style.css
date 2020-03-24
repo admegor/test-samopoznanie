@@ -321,7 +321,8 @@ body {
   line-height: 18px;
   font-family: 'Futura PT Book','Arial', sans-serif;
   font-style: normal;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 img {
   max-width: 100%;
@@ -450,7 +451,7 @@ img {
     font-weight: bold; }
 
 .footer {
-  margin-bottom: 70px; }
+  padding-bottom: 70px; }
   .footer__wrap {
     margin: 0 auto;
     max-width: 320px; }
@@ -462,5 +463,13 @@ img {
     text-decoration: none;
     list-style: none;
     font-family: 'Futura PT Medium','Arial', sans-serif; }
+
+.main {
+  background: linear-gradient(0deg, #f1f0f1 0%, white 57%, white 100%);
+  z-index: -1; }
+  .main__wrap {
+    background-image: url("../../img/bg-main.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; }
 
 /*# sourceMappingURL=style.css.map */

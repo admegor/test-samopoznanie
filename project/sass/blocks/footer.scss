@@ -1,5 +1,5 @@
 .footer {
-    margin-bottom: $margin-blocks;
+    padding-bottom: $padding-blocks;
     &__wrap {
         @include phone-wrap;
     }

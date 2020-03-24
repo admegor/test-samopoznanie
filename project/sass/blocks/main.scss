@@ -1,0 +1,11 @@
+.main {
+    background: linear-gradient(0deg, rgba(241,240,241,1) 0%, rgba(255,255,255,1) 57%, rgba(255,255,255,1) 100%);
+    z-index: -1;
+    
+    &__wrap {
+        background-image: url('../../img/bg-main.png');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        
+    }
+}
