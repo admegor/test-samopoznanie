@@ -1,0 +1,26 @@
+.logo {
+    margin-top: 35px;
+
+    &__wrap {
+        @include phone-wrap;
+    }
+
+    &__inner {
+        @include phone-inner;
+    }
+
+    &__subtitle {
+        @include reset;
+        text-align: center;
+        color: $content-color;
+        @include content-font;
+    }
+
+    &__images-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: green;
+    }
+}

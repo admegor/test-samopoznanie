@@ -1,0 +1,24 @@
+@mixin phone-wrap {
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+@mixin phone-inner {
+    margin: 0 15px;    
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@mixin content-font {
+    font-family: 'Futura PT Book','Arial', sans-serif;
+}
+
+@mixin title-font {
+    font-family: 'Futura PT Medium','Arial', sans-serif;
+}
+
