@@ -320,7 +320,8 @@ body {
   font-size: 14px;
   line-height: 18px;
   font-family: 'Futura PT Book','Arial', sans-serif;
-  font-style: normal; }
+  font-style: normal;
+  text-align: center; }
 
 img {
   max-width: 100%;
@@ -341,26 +342,125 @@ img {
   font-weight: normal;
   font-style: normal; }
 
-.logo {
-  margin-top: 35px; }
-  .logo__wrap {
+.logo__wrap {
+  margin: 0 auto;
+  max-width: 320px; }
+
+.logo__inner {
+  margin: 0 15px; }
+
+.logo__subtitle {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: #333333;
+  font-family: 'Futura PT Book','Arial', sans-serif;
+  line-height: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.logo__images-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.logo__image-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s; }
+
+.logo__image-link:hover {
+  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.05), 0 1px 13px rgba(0, 0, 0, 0.1); }
+
+.domains {
+  margin-bottom: 70px; }
+  .domains__wrap {
     margin: 0 auto;
     max-width: 320px; }
-  .logo__inner {
+  .domains__inner {
     margin: 0 15px; }
-  .logo__subtitle {
+  .domains__title {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    text-align: center;
+    font-family: 'Futura PT Medium','Arial', sans-serif;
+    color: #003770;
+    font-size: 24px;
+    line-height: 26px; }
+  .domains__content {
     color: #333333;
-    font-family: 'Futura PT Book','Arial', sans-serif; }
-  .logo__images-wrap {
+    line-height: 18px;
+    margin-bottom: 40px; }
+  .domains__list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    background-color: green; }
+    justify-content: space-between; }
+  .domains__item {
+    min-width: 130px;
+    min-height: 70px;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.09);
+    margin-bottom: 25px;
+    background-image: linear-gradient(120deg, #f2f2f2 0%, #fdfdfd 74%);
+    transition: .2s; }
+    .domains__item:hover {
+      background-image: linear-gradient(-45deg, #f2f2f2 0%, #fdfdfd 74%); }
+    .domains__item:active {
+      background-image: linear-gradient(-45deg, #dadada 0%, #fdfdfd 74%); }
+  .domains__link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Futura PT Medium','Arial', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; }
+  .domains__button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    font-family: 'Futura PT Medium','Arial', sans-serif;
+    color: #ffffff;
+    background-color: #ff6a25;
+    padding: 15px 30px;
+    cursor: pointer; }
+    .domains__button:hover {
+      background-color: #ce541b; }
+    .domains__button:active {
+      background-color: #9b431a; }
+  .domains__text {
+    font-family: 'Futura PT Medium','Arial', sans-serif; }
+  .domains__text span {
+    font-weight: bold; }
+
+.footer {
+  margin-bottom: 70px; }
+  .footer__wrap {
+    margin: 0 auto;
+    max-width: 320px; }
+  .footer__inner {
+    margin: 0 15px; }
+  .footer__info {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Futura PT Medium','Arial', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

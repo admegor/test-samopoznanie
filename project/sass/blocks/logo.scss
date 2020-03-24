@@ -1,6 +1,4 @@
 .logo {
-    margin-top: 35px;
-
     &__wrap {
         @include phone-wrap;
     }
@@ -14,13 +12,27 @@
         text-align: center;
         color: $content-color;
         @include content-font;
+        line-height: 20px;
+        margin-top: $margin-blocks /2;
+        margin-bottom: $margin-blocks /2;
     }
 
     &__images-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        background-color: green;
+        flex-wrap: wrap;        
+    }
+
+    &__image-link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s;
+    }
+
+    &__image-link:hover {
+        box-shadow: 0 1px 25px rgba(0, 0, 0, 0.05), 0 1px 13px rgba(0, 0, 0, 0.10);
     }
 }

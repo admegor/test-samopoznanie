@@ -14,6 +14,13 @@
     list-style: none;
 }
 
+@mixin button-reset {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
 @mixin content-font {
     font-family: 'Futura PT Book','Arial', sans-serif;
 }

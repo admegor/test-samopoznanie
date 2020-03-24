@@ -1,0 +1,15 @@
+.footer {
+    margin-bottom: $margin-blocks;
+    &__wrap {
+        @include phone-wrap;
+    }
+
+    &__inner {
+        @include phone-inner;
+    }
+
+    &__info {
+        @include reset;
+        @include title-font;
+    }
+}

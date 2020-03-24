@@ -14,7 +14,8 @@ body {
   font-size: 14px;
   line-height: 18px;
   font-family: 'Futura PT Book','Arial', sans-serif;
-  font-style: normal; }
+  font-style: normal;
+  text-align: center; }
 
 img {
   max-width: 100%;
