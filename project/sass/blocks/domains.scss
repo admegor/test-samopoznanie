@@ -1,5 +1,6 @@
 .domains {
     margin-bottom: $margin-blocks;
+
     &__wrap {
         @include phone-wrap;
     }
@@ -88,4 +89,30 @@
         font-weight: bold;
     }
 
+    @media (min-width: $desktop-width) {
+        &__wrap {
+            @include desktop-wrap;
+        }
+
+        &__list {
+            margin-bottom: 54px;
+        }
+
+        &__item {
+            min-width: 180px;
+            min-height: 80px;
+        }
+
+        &__link {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        &__button {
+            font-size: 16px;
+            line-height: 26px;
+            padding: 14px 38px;
+            margin-bottom: 21px;
+        }
+    }
 }

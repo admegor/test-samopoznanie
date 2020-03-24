@@ -12,4 +12,15 @@
         @include reset;
         @include title-font;
     }
+
+    @media (min-width: $desktop-width) {
+        &__wrap {
+            @include desktop-wrap;
+        }
+
+        &__info {
+            width: 850px;
+            margin: 0 auto;
+        }
+    }
 }

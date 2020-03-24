@@ -3,6 +3,10 @@
     max-width: 320px;
 }
 
+@mixin desktop-wrap {
+    max-width: 1170px;
+}
+
 @mixin phone-inner {
     margin: 0 15px;    
 }
